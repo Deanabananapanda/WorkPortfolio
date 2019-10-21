@@ -1,0 +1,14 @@
+{
+    "name": "portafolio",
+    "homepage": "https://github.com/Deanabananapanda/WorkPortfolio",
+    "author": "Diana Gonzalez",
+    "license": "ISC",
+    "private": true,
+    "dependencies": {
+      "gh-pages": "^2.1.1",
+    },
+    "scripts": {
+      "predeploy": "npm run build",
+      "deploy": "gh-pages -d build"
+    }
+   }
